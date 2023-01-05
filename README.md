@@ -1,1 +1,0 @@
-# Alkira_take_home
