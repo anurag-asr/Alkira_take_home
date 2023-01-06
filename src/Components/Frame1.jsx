@@ -55,9 +55,9 @@ export const Frame1 = () => {
       <div className="pagination" >
         <button onClick={() => setPage((page) => page - 1)}>{"<"}</button>
         {/* <span>{page}</span> */}
-        <button>1</button>
-        <button>4</button>
-        <button onClick={() => setPage((page) => page + 1)}>{">"}</button>
+        <button className="page_int" disabled={page<=1}>{page}</button>
+        <button className="page_end">4</button>
+        <button className="Inc" onClick={() => setPage((page) => page + 1)}>{">"}</button>
       </div>
       
     </div>
