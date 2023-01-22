@@ -22,7 +22,7 @@ export const SearchBar = ({setValue}) => {
 
   return (
   <div className="search_box">
-     <input data-cy="search_bar" className='search' type="text" placeholder='enter your search request' value={data} onChange={(e)=>handleChange(e)}/>
+     <input data-cy="search_bar" className='search' type="text" placeholder='Please Search Based on year i.e 2017' value={data} onChange={(e)=>handleChange(e)}/>
      <img className='searchicon' src={searchicon} alt="" /> 
   </div>
   )

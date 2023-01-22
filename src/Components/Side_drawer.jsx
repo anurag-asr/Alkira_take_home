@@ -18,9 +18,10 @@ export function Side_drawer(props) {
 
   return (
     <>
-      <Box className="drawer"ref={btnRef}>
-        <p  onClick={onOpen} data-cy="team_name">{elem.home_team.name}</p>
-        <p  onClick={onOpen} >{elem.home_team.city}</p>
+      <Box className="drawer" ref={btnRef}>
+        {console.log(elem)}
+        <p onClick={onOpen} data-cy="team_name">{elem.home_team.name}</p>
+        <p onClick={onOpen} >{elem.home_team.city}</p>
         <p onClick={onOpen} >{elem.home_team.abbreviation}</p>
         <p onClick={onOpen} >{elem.home_team.conference}</p>
         <p onClick={onOpen} >{elem.home_team.division}</p>
@@ -37,7 +38,7 @@ export function Side_drawer(props) {
           <DrawerHeader>{elem.home_team.name}</DrawerHeader>
           <DrawerBody>
             <p data-cy="Team_full_name">Team Full name :{" "}{`${elem.home_team.city}  ${elem.home_team.name}`}</p>
-            <p>Total Games in 2021 : 43</p>
+            <p>{`Total Games in ${elem.season} : 43`}</p>
             <br />
             <h2>Random Game Details : </h2>
             <div className="game_details">
