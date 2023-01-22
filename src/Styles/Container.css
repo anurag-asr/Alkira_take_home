@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  font-family: "Roboto";
+}
+.container {
+  width: 100%;
+  border: 2px black solid;
+  margin: auto;
+}
+
+.city {
+  display: flex;
+}
+/*NBA TEAMS */
+.container_nba_team {
+  margin: 0 11.25rem;
+  margin-top: 3.1875rem;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3rem;
+  text-align: left;
+  color: #074684;
+}
+.game_details {
+  margin-top: 2rem;
+  font-weight: 600;
+  color: #000000;
+}
+.game_details > p {
+  margin: 1.4rem 0;
+}
+
+.game_details span {
+  margin-left: 10px;
+  text-align: right;
+}

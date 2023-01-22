@@ -1,0 +1,27 @@
+.search_box {
+  position: relative;
+  width: 43.5%;
+  height: 4.5rem;
+  margin: 0 11.25rem;
+  margin-top: 2.31rem;
+  background: #ffffff;
+  border: 2px solid #074684;
+  border-radius: 10px;
+  align-items: center;
+  display: flex;
+  padding-left: 1rem;
+}
+
+.search {
+  position: absolute;
+  border-radius: 10px;
+  left: 4rem;
+  height: 100%;
+  width: 70%;
+  border-style: none;
+  font-size: 1.8rem;
+}
+
+.search:focus {
+  outline: none;
+}

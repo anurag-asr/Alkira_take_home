@@ -1,13 +1,12 @@
 import "./App.css";
 import "@fontsource/roboto";
-import { Ui } from "./Components/Ui";
+import { Container } from "./Components/Container";
 
 function App() {
   return (
     <div className="App">
-      <Ui />
+      <Container />
     </div>
   );
 }
-
 export default App;
